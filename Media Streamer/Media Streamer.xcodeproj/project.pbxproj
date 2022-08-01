@@ -22,7 +22,6 @@
 		56B0B7B62896DFF100489CCF /* StreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B0B7A32896DFF100489CCF /* StreamingKit.framework */; };
 		56B0B7B72896DFF100489CCF /* StreamingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56B0B7A32896DFF100489CCF /* StreamingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56B0B7C02896E00900489CCF /* StreamingMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B0B7BF2896E00900489CCF /* StreamingMediaPlayer.swift */; };
-		56C4C316289802CE006F1524 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4C315289802CE006F1524 /* ViewController+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +95,6 @@
 		56B0B7AA2896DFF100489CCF /* StreamingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B0B7B12896DFF100489CCF /* StreamingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingKitTests.swift; sourceTree = "<group>"; };
 		56B0B7BF2896E00900489CCF /* StreamingMediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingMediaPlayer.swift; sourceTree = "<group>"; };
-		56C4C315289802CE006F1524 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +168,6 @@
 				56B0B76E2896DFD500489CCF /* AppDelegate.swift */,
 				56B0B7702896DFD500489CCF /* SceneDelegate.swift */,
 				56B0B7722896DFD500489CCF /* ViewController.swift */,
-				56C4C315289802CE006F1524 /* ViewController+TableView.swift */,
 				56B0B7742896DFD500489CCF /* Main.storyboard */,
 				56B0B7772896DFD700489CCF /* Assets.xcassets */,
 				56B0B7792896DFD700489CCF /* LaunchScreen.storyboard */,
@@ -420,7 +417,6 @@
 			files = (
 				56B0B7732896DFD500489CCF /* ViewController.swift in Sources */,
 				56B0B76F2896DFD500489CCF /* AppDelegate.swift in Sources */,
-				56C4C316289802CE006F1524 /* ViewController+TableView.swift in Sources */,
 				56B0B7712896DFD500489CCF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

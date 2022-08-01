@@ -11,8 +11,6 @@ import StreamingKit
 class ViewController: UIViewController {
     
     // MARK: - UI
-    let tableView = UITableView()
-    
     let urlTextField = UITextField()
     let actionsStackView = UIStackView()
     let playButton = UIButton()
@@ -33,20 +31,11 @@ class ViewController: UIViewController {
     // MARK: - Setup
     func setup() {
         view.backgroundColor = .white
-        setupTableView()
         setupUrlTextField()
         setupActionsStackView()
         setupMediaPlayerView()
         
         layout()
-    }
-    
-    /// Set table view properties
-    private func setupTableView() {
-        view.addSubview(tableView)
-        tableView.delegate = self
-        tableView.dataSource = self
-        
     }
     
     /// Set url text field properties
